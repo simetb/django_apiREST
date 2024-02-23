@@ -35,18 +35,12 @@ This Django project is a RESTful API that requires authentication and protection
     ```
     source myenv/bin/activate
     ```
-
-5. Install Dependencies:
-
-    ```
-    pip install -r requirements.txt
-    ```
-
-6. Configure Database:
+    
+5. Configure Database:
 
     Set up your database configuration in `settings.py`.
 
-7. Run Migrations:
+6. Run Migrations:
 
     ```
     python manage.py migrate
